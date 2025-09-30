@@ -1,0 +1,34 @@
+body {
+  background: url("https://images.pexels.com/photos/1329510/pexels-photo-1329510.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-weight: 600;
+}
+h2 {
+  color: #ffffff;       /* keep it white */
+  font-size: 2.5rem;    /* bigger than default (~40px) */
+  font-weight: 600;     /* extra bold */
+  text-transform: uppercase; /* optional: all caps */
+  letter-spacing: 1px;  /* optional: adds spacing between letters */
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.btn-primary {
+  background-color: #6c757d; /* Bootstrap's default gray */
+  border-color: #6c757d;
+  color: #ffffff;            /* white text */
+  font-weight: 600;          /* denser text */
+}
+
+.btn-primary:hover {
+  background-color: #5a6268; /* darker gray on hover */
+  border-color: #5a6268;
+}
